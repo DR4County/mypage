@@ -1,0 +1,105 @@
+	@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+	html {
+	  scroll-behavior: smooth;
+	}
+	
+	body {
+		margin: 0px;
+		background: radial-gradient(#c9c9c9, #a3a3a3);
+	}
+
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		background: radial-gradient(rgba(138, 138, 138, 1), rgba(163, 163, 163, 0.5));
+		padding: 10px;
+		height: 30px;
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+		border-radius: 30px 30px 90px 90px;
+	}
+	.navbutton {
+		padding: 0px 20px 0px 20px;
+	}
+	.navbutton > a, .navbutton > .button {
+		position: relative;
+		background: radial-gradient(#d4d4d4, #b5b5b5);
+		padding: 10px;
+		border-radius: 15px;
+		text-decoration: none;
+		transition: 0.5s linear;
+	}
+	.navbutton > a:hover, .navbutton > .button:hover {
+		border-color: grey;
+		background: radial-gradient(#b5b5b5, #d4d4d4);
+		animation: rotatingBorder 2s infinite;
+	}
+	@keyframes rotatingBorder {
+	  0%   { border-style: solid solid groove solid; }
+	  25%  { border-style: solid solid solid groove; }
+	  50%  { border-style: groove solid solid solid; }
+	  100% { border-style: solid groove solid solid; }
+	}
+	content, .content {
+		display: block;
+		margin-top: 500px;
+		margin: 200px;
+	}
+	.fadebox {
+		position: relative;
+		background: rgba(0, 0, 0, 0.05);
+		border-radius: 20px;
+		padding: 10px;
+		transition: 0.4s linear;
+		opacity: 0.8;
+	}
+	.fadebox:hover {
+		background: rgba(255, 255, 255, 0.05);
+		opacity: 1;
+	}
+	.fadebox > h2.header {
+		position: relative;
+		top: 0;
+		transition: top 0.5s;
+	}
+	.fadebox:hover > h2.header {
+		top: -10px;
+	}
+	p, a {
+		color: #401212;
+		font-family: 'Lobster', cursive;
+		font-size: 16px;
+	}
+	ul > li {
+		color: #8a4949;
+		text-shadow: 1px 1px #784040;
+	}
+	.link {
+		display: inline-block;
+		color: #8a4141;
+	}
+	.header, .copyright {
+		color: #b34d4d;
+		text-shadow: 1px 1px grey;
+		font: bold 2em 'Paytone One', sans-serif;
+		letter-spacing: 0.1em;
+	}
+	.small-header {
+		color: #cf6565;
+		text-shadow: 1px 1px grey;
+	}
+	.indent {
+	position: relative;
+		left: 50px;
+	}
+	.copyright {
+		font-size: 18px;
+		text-align: center;
+	}
+	.self-image {
+		border-radius: 16px;
+	}

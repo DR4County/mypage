@@ -1,57 +1,113 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-		<meta charset="utf-8">
-		<meta name = "description" content = "This is A page about me, David Reyes.">
-		<meta name = "keywords" content = "David reyes, student, programming, web development">
-		<title>David's Amazing Page</title>
-	</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is A page about me, David Reyes." />
+    <meta
+      name="keywords"
+      content="David reyes, student, programming, web development"
+    />
+    <title>David's Amazing Page</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="navbutton">
+        <a href="#top">Top</a>
+      </div>
+      <div class="navbutton">
+        <a href="#about">About Me</a>
+      </div>
+      <div class="navbutton">
+        <a href="#contacts">Contact Me</a>
+      </div>
+    </nav>
 	
-	<body>
-		<h1>Welcome to my page!</h1>
-		<h1>I am David Reyes.</h1>
-		<img src = "./me.png"
-			 alt = "This is me."
-			 title="That is me!"
-			 width = "211" height = "320">
-		
-		<hr>
-		
-		Links:
-		<a href="https://mrgeiger.com" title="Mr Geiger's Page!">Mr. Geiger's Page</a> 
-		<a href="https://fourcounty.net" title="Four County">Four County Homepage</a>
-		<a href="./me.png" title="Me!">A link to the image of me</a>
-		<hr>
-		
-		<h2>About</h2>
-		<p>
-			I grew up in both <strong><a href="https://goo.gl/maps/9x21k9miFSinMPqf9" title="View Archbold on Google Maps.">Montpelier</a></strong> and <strong><a href="https://goo.gl/maps/vahGiykAo1x5uNqD6" title="View Bryan on Google Maps.">Bryan</a></strong>,
-			although I have still spent large amounts of time being in 
-			<strong><a href="https://goo.gl/maps/KHtLczTQ1CCoRjDfA" title="View Archbold on Google Maps.">Archbold</a></strong>. 
-			<br>
-			I was born in Bryan, but have since moved to and lived in <strong><a href="https://goo.gl/maps/9x21k9miFSinMPqf9" title="View Montpelier on Google Maps.">Montpelier</a></strong>. I was raised in a rural area of Montpelier.
-		</p>
-		<hr>
-		<h2>Family</h2>
+    <div class="content" id="top">
+	
+      <h1 class="header">Welcome to my page!</h1>
+      <h1 class="header">I am David Reyes.</h1>
+      <img
+        src="./me.png"
+        alt="This is me."
+        title="That is me!"
+        width="211"
+        height="320"
+		class="self-image"
+      />
+      <br />
+	 <div class="fadebox">
+		<h2 class="header" id="links">Links</h2>
+		<a href="https://mrgeiger.com" title="Mr Geiger's Page!" class="link">
+			Mr. Geiger's Page
+		</a>
+		 | 
+		<a href="https://fourcounty.net" title="Four County" class="link">
+			Four County Homepage
+		</a>
+		 | 
+		<a href="./me.png" title="Me!" class="link">
+			A link to the image of me
+		</a> 
+    </div>
+	  <hr />
+	  <div class="fadebox">
+		  <h2 class="header" id="about">About</h2>
+		  <p>
+			I grew up in both
+			<strong>
+			  <a
+				href="https://goo.gl/maps/9x21k9miFSinMPqf9"
+				title="View Archbold on Google Maps."
+			  >Montpelier</a>
+			</strong>
+			and
+			<strong>
+			  <a
+				href="https://goo.gl/maps/vahGiykAo1x5uNqD6"
+				title="View Bryan on Google Maps."
+			  >Bryan</a>
+			</strong>, although I have still spent large amounts of time being in
+			<strong>
+			  <a
+				href="https://goo.gl/maps/KHtLczTQ1CCoRjDfA"
+				title="View Archbold on Google Maps."
+			  >Archbold</a></strong>.
+			<br />
+			I was born in Bryan, but have since moved to and lived in
+			<strong>
+			  <a
+				href="https://goo.gl/maps/9x21k9miFSinMPqf9"
+				title="View Montpelier on Google Maps."
+			  >Montpelier</a>
+			</strong>. I was raised in a rural area of Montpelier.
+		  </p>
+		</div>
+      <hr />
+	<div class="fadebox">
+		<h2 class="header">Family</h2>
 		<ul>
 			<li>Me</li>
 			<li>Brandy, Mother</li>
 			<li>David, Father</li>
 			<li>Lily, Sister</li>
 		</ul>
-		
-		<hr>
-		
-		<h2>Pets</h2>
+	</div>
+      <hr />
+	<div class="fadebox">
+		<h2 class="header">Pets</h2>
 		<ul>
 			<li>Boston Terrier, (Dog)</li>
 			<li>Tortoiseshell, (Cat)</li>
-			<li>Calico, (Cat) </li>
+			<li>Calico, (Cat)</li>
 		</ul>
-		
-		<hr>
-		
-		<h2>Hobbies</h2>
+	</div>
+
+      <hr />
+	<div class="fadebox">
+		<h2 class="header">Hobbies</h2>
 		<ul>
 			<li>Web Development</li>
 			<li>Game Development</li>
@@ -59,49 +115,71 @@
 			<li>Carpentry</li>
 			<li>Basketball</li>
 		</ul>
-		
-		<hr>
-		
-		<h2>Contact Information</h2>
-		<pre>
-David Reyes
-Montpelier, Ohio 43543
-419-333-1394
-		</pre>
-		
-		<hr>
-		
-		<h2>Other</h2>
-		
-		<h3>How I started Programming.</h3>
+	</div>
+      <hr />
+	<div class="fadebox">
+      <h2 class="header" id="contacts">Contact Information</h2>
+      <pre>
+	David Reyes
+	Montpelier, Ohio 43543
+	419-333-1394
+			</pre
+      >
+	</div>
+      <hr />
+	<div class="fadebox">
+		<h2 class="header">Other</h2>
+		<h3 class="small-header">How I started Programming.</h3>
 		<p>
-		I started playing around with websites in 2018, using inspect element to see how things worked and 
-		reacted to each other. 
-		In early 2019, I then started using a drag and drop javascript game engine called <a href="https://scratch.mit.edu" title="Visit Scratch.mit.edu">Scratch</a> to make very basic web games.
-		Eventually I found youtube tutorials on how to make a basic website with html and css in 2020 and made A few very simple personal websites.
-		In late 2020 I learned how to use most of javascript, and started to learn Node.js along with how web servers worked.
-		My first Node.js project had been a very basic forum board to send messages on.
-		After that I wanted to make something bigger and better, so I took on the challenge that is creating a fully functional social media.
-		Lately, I have also started making other small games with engines such as Godot and Unity to expand my knowledge on how programming languages work and are interpreted.
+        I started playing around with making websites in 2018, using inspect element to
+        see how things worked and reacted to each other. In early 2019, I then
+        started using a drag and drop javascript game engine called
+        <a href="https://scratch.mit.edu" title="Visit Scratch.mit.edu"
+          >Scratch</a>
+        to make very basic web games. Eventually I found youtube tutorials on
+        how to make a basic website with html and css in 2020 and made A few
+        very simple personal websites. In late 2020 I learned how to use most of
+        javascript, and started to learn Node.js along with how web servers
+        worked. My first Node.js project had been a very basic forum board to
+        send messages on. After that I wanted to make something bigger and
+        better, so I took on the challenge that is creating a fully functional
+        social media. Lately, I have also started making other small games with
+        engines such as Godot and Unity to expand my knowledge on how
+        programming languages work and are interpreted.
 		</p>
-		
-		<br>
-		
-		<h3>More About Me</h3>
+
+      <br />
+
+		<h3 class="small-header">More About Me</h3>
 		<p>
-		I chose to learn programming and game development so I could take a working concept like a social media (facebook, reddit, twitter, etc.), and take all of the good parts that I like out of it.
-		Then I could use those concepts to make my own similar yet completely different program or service that can benefit the users. 
-		My goal is to do this without bringing the downsides from the similar programs and services with it.
-		While doing so I also do my best to add features that myself or others could benefit or want from since no other content platform or video game services provide it.
+        I chose to learn programming and game development so I could take a
+        working concept like a social media (facebook, reddit, twitter, etc.),
+        and take all of the good parts that I like out of it. Then I could use
+        those concepts to make my own similar yet completely different program
+        or service that can benefit the users. My goal is to do this without
+        bringing the downsides from the similar programs and services with it.
+        While doing so I also do my best to add features that myself or others
+        could benefit or want from since no other content platform or video game
+        services provide it.
 		</p>
-		
-		<br>
-		
-		<h3>What I do in my spare time.</h3>
+
+      <br />
+
+		<h3 class="small-header">What I do in my spare time.</h3>
 		<p>
-		I used to often play video games with friends or watch youtube videos to pass the time. 
-		I quickly grew bored of this and decided that since I can make my own video games or make videos and tutorials, I would use some of the things I learned to be more productive and resourceful, rather than just playing a game that benefits me in almost no way at all. 
+        I used to often play video games with friends or watch youtube videos to
+        pass the time. I quickly grew bored of this and decided that since I can
+        make my own video games or make videos and tutorials, I would use some
+        of the things I learned to be more productive and resourceful, rather
+        than just playing a game that benefits me in almost no way at all.
 		</p>
-		<h5>Copyright &copy; David Reyes 2021</h5>
-	</body>
+	</div>
+	
+	<hr \>
+	
+	<div class="fadebox">
+		<h5 class="copyright">Copyright &copy; David Reyes 2021</h5>
+	</div>
+    </div>
+  </body>
 </html>
