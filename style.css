@@ -87,10 +87,12 @@
 		text-shadow: 1px 1px grey;
 		font: bold 2em 'Paytone One', sans-serif;
 		letter-spacing: 0.1em;
+		line-height: 80%;
 	}
 	.small-header {
 		color: #cf6565;
 		text-shadow: 1px 1px grey;
+		line-height: 80%;
 	}
 	.indent {
 	position: relative;
