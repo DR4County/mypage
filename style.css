@@ -105,3 +105,7 @@
 	.self-image {
 		border-radius: 16px;
 	}
+	.frame {
+		width: 100%;
+		height: calc(600px);
+	}
