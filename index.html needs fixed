@@ -8,38 +8,13 @@
           content="David reyes, student, programming, web development"
           />
     <title>David's Amazing Page</title>
+
     <link href="./style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
-    <script src="./util.js" defer></script>
   </head>
 
   <body>
-    <nav>
-      <div class="navbutton">
-        <a href="/#top">
-          <i class="fa fa-home icon"></i>
-          <span class="text">Home</span>
-        </a>
-      </div>
-      <div class="navbutton">
-        <a href="/links/">
-          <i class="fa fa-link icon"></i>
-          <span class="text">Links</span>
-        </a>
-      </div>
-      <div class="navbutton">
-        <a href="/#about">
-          <i class="fa fa-user icon"></i>
-          <span class="text">About Me</span>
-        </a>
-      </div>
-      <div class="navbutton">
-        <a href="/#contacts">
-          <i class="fa fa-address-book icon"></i>
-          <span class="text">Contact Me</span>
-        </a>
-      </div>
-    </nav>
+    <iframe src="/navbar.html" class="nav-frame"></iframe>
 	
     <div class="content" id="top">
 	
@@ -181,9 +156,6 @@
 	<div class="fadebox">
 		<h5 class="copyright">Copyright &copy; David Reyes 2021</h5>
 	</div>
-  </div>
-</body>
-  <boxies>
-  </boxies>
-  
+    </div>
+  </body>
 </html>
