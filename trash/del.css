@@ -1,0 +1,47 @@
+body {
+  background: #1D0225;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.container > * {
+  width: 100%;
+  padding: 15px 0;
+  margin: 5px 0;
+  text-align: center;
+  
+}
+
+.container > *:nth-child(2n+0){
+  background: #230337;
+  border-radius: 0 5px 0 5px;
+  color: #880F71;
+}
+
+.container > *:nth-child(2n+1){
+  background: #3E083C;
+  border-radius: 5px 0 5px 0;
+  color: #AB8AB7;
+}
+
+.container > nav > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.container > nav > ul > * {
+  flex: 1 1;
+  border-radius: 5px 0;
+  padding: 2px;
+  margin-right: 5px;
+  list-style-type: none;
+}
+
+.container > aside, .container > section {
+  display: inline-block;
+  height: 300px;
+  width: calc(50% - 2px);
+}
