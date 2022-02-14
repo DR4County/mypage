@@ -1,0 +1,77 @@
+body {
+    background: black;
+}
+
+header, footer {
+    height: 100px;
+}
+
+header {
+    display: flex !important;
+    flex-direction: row;
+}
+
+header div.title, header div.topic {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    height: 100%;
+    flex: .25;
+    padding: 0 20px;
+}
+
+header div.topic {
+    background: rgba(0, 0, 0, 0.2);
+    flex: 1 1;
+    font-size: 40px;
+}
+
+footer {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+aside, section {
+    height: 600px;
+}
+
+aside a {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+aside a:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.indigo {
+    background: indigo;
+}
+
+.violet {
+    background: violet;
+}
